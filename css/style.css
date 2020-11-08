@@ -1,0 +1,174 @@
+.fone { 
+    background-image: url('../img/fone.jpg');
+    background-attachment: fixed;
+}
+
+/* первый вариант навигации и футера до лекции с разметкой */
+/* .nav,
+a:not(:last-child) {
+border-right: 2px outset blanchedalmond;
+padding:10px 5px;
+background: rgb(177, 143, 209); 
+} */
+/* display: inline-block; 
+text-align: center; 
+}
+/* 
+nav {
+    text-align: center; 
+} */ 
+
+/* header { */
+    /* position: fixed; */
+    /* right: 0; */
+    /* left: 0; */
+    /* top: 0; */
+    /* z-index: 3; */
+/* } */
+
+/* header, */
+/* footer { */
+ /* background-color:rgb(209, 25, 148); */
+ /* height: 120; */
+/* } */
+
+/* конец первого варианта */
+
+
+
+
+
+/* Скролл начало */
+.scroll-up {
+position: fixed;
+right: 10px;
+bottom: 30px;
+font-size: 35px;
+border-radius: 20%;
+}
+
+.scroll-color {
+    background: rgb(2, 2, 2);
+    color: rgb(255, 255, 255);
+}
+
+/* Скролл конец */
+
+
+/* Вход */
+
+#login {
+	position: fixed;
+	/* margin: 0 auto; */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 15;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+/* .container {
+	margin: 0 auto;
+	width: 450px;
+	height: 500px;
+	background-color: blue;
+	text-align: center;
+} */
+
+#form-login {
+	position: fixed;
+	top: 40%;
+	right: 45%;
+	border-radius: 10px;
+	background-color: black;
+	z-index: 20;
+}
+
+#login:target {
+	display: block;
+}
+
+#close:target {
+	display: none;
+}
+
+#close-btn {
+	margin-left: 260px;
+}
+
+input[type="email"]
+input[type="password"] {
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+}
+
+	/* вер 2 0  */
+/* input[type=email] {
+	width: 280px;
+	height: 50px;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+input[type=password] {
+	width: 280px;
+	height: 50px;
+	font-size: 2em;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+input[type=submit] {
+	width: 100px;
+	height: 40px;
+	font-size: 1.5em;
+	margin-left: 180px;
+}  */
+
+/* вер 2 0  */
+
+/* стили формы из видео https://www.youtube.com/watch?v=INb7QmuKmTc */
+/* .container {
+    width: 450px;
+    height: 500px;
+    background-color: rgba(24, 33, 52, 0,7);
+    margin: 250px auto 0 auto;
+    text-align: center;
+    box-shadow: 0 -5px 0 #3adbfd;
+    border-radius: 0 0 10px 10px;
+
+}
+
+input[type="text"],
+input[type="password"] {
+width: 300px;
+height: 50px;
+font-size: 18px;
+margin-bottom: 25px;
+border-radius: 4px;
+padding-left: 10px;
+}
+
+.dws-submit {
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    color: #fff;
+    background-color: 2ca8c6;
+    border: none;
+    border-bottom: 4px solid #6ee9fd;
+    cursor: pointer;
+}
+
+.dws-submit:hover{
+    transition: all 0.5s;
+    background: #fff;
+    color: #2c536c;
+} */
+
+/* Конец стилей из видео  */
